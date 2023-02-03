@@ -9,19 +9,16 @@
     display:flex;
     
     background-image: url('pics/cuttingb.jpg');
-    justify-content: space-around;
+    justify-content: space-between;
     width:100%;
     height:300px;
-    flex-direction: row;
+
 }
 .main h3{
     color: aliceblue;
-}
-.main ul{
-    background-color: aqua;
-    
     
 }
+
 .main li{
     display: inline-block;
     list-style: none;
@@ -30,4 +27,15 @@
 }
 .main a{
     color: aliceblue;
+    text-decoration: none;
+}
+.lefthead{
+
+    background-color: rgba(8, 124, 124, .5);
+    width: 100%;
+}
+.righthead{
+    width: 100%;
+    background-color: rgba(149, 253, 253, 0.5);
+    text-align: right;
 }
