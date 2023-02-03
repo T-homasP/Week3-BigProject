@@ -5,13 +5,18 @@
     font-size: 100%;
     font:inherit;
 }
+body{
+    background-color: black;
+}
 .main{
     display:flex;
     
-    background-image: url('pics/cuttingb.jpg');
+    background-image: url('pics/producebord.jpeg');
     justify-content: space-between;
-    width:100%;
-    height:300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:auto;
+    height: 450px;
 
 }
 .main h3{
@@ -22,7 +27,7 @@
 .main li{
     display: inline-block;
     list-style: none;
-    
+    padding-left: 20px;
     
 }
 .main a{
@@ -33,9 +38,13 @@
 
     background-color: rgba(8, 124, 124, .5);
     width: 100%;
+    padding-left: 8%;
+    padding-top: 5%;
 }
 .righthead{
     width: 100%;
     background-color: rgba(149, 253, 253, 0.5);
     text-align: right;
+    padding-right: 8%;
+    padding-top: 5%;
 }
