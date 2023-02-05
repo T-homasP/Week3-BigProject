@@ -11,7 +11,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 3000px;
+    height: fit-content;
+}
+.firstpage{
+    height: 100vh;
 }
 .main{
     display:flex;
@@ -60,7 +63,7 @@ body{
     height: fit-content;
 }
 hr{
-    height: 3px;
+    height: 2px;
     background-color: rgb(255, 249, 242);
 }
 .middlestuff{
@@ -74,14 +77,13 @@ hr{
     margin-top: 20vh;
 }
 .middlestuff h1{
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Poppins', sans-serif;
     color: beige;
     text-align: center;
 }
 .middlestuff hr{
-    margin: 20px 20px ;
-
+    margin: 2vw 30vw;
 }
 .middlestuff h3{
     color: beige;
@@ -90,4 +92,34 @@ hr{
     font-size: 300%;
     margin-top: 20px;
     font-weight:normal;
+}
+.second{
+    display: flex;
+}
+.secleft{
+    background-image: url('pics/bread.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:500px;
+    width: 100%;
+    margin-right: 0;
+}
+.secright{
+    background-color: rgb(3, 3, 3);
+    flex-basis: 160%;
+    height: 500px;
+}
+.secright h2{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 30px;
+    font-weight:400;
+    color: beige;
+    font-family: sans-serif;
+}
+.secright p{
+    padding-top: 5%;
+    padding-left: 10%;
+    color: beige;
+    font-family: 'Heebo', sans-serif;
 }
